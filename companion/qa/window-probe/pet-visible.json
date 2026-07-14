@@ -1,0 +1,276 @@
+{
+  "schemaVersion" : 1,
+  "screens" : [
+    {
+      "appKitFrame" : {
+        "height" : 982,
+        "width" : 1512,
+        "x" : 0,
+        "y" : 0
+      },
+      "appKitVisibleFrame" : {
+        "height" : 872,
+        "width" : 1512,
+        "x" : 0,
+        "y" : 72
+      },
+      "backingScaleFactor" : 2,
+      "cgFrame" : {
+        "height" : 982,
+        "width" : 1512,
+        "x" : 0,
+        "y" : 0
+      },
+      "id" : 1
+    },
+    {
+      "appKitFrame" : {
+        "height" : 1440,
+        "width" : 2560,
+        "x" : -220,
+        "y" : 982
+      },
+      "appKitVisibleFrame" : {
+        "height" : 1440,
+        "width" : 2560,
+        "x" : -220,
+        "y" : 982
+      },
+      "backingScaleFactor" : 2,
+      "cgFrame" : {
+        "height" : 1440,
+        "width" : 2560,
+        "x" : -220,
+        "y" : -1440
+      },
+      "id" : 3
+    }
+  ],
+  "state" : "pet-visible",
+  "windows" : [
+    {
+      "alpha" : 1,
+      "bounds" : {
+        "height" : 77,
+        "width" : 84,
+        "x" : 765,
+        "y" : -348
+      },
+      "layer" : 3,
+      "order" : 56,
+      "ownerName" : "ChatGPT",
+      "ownerPID" : 7981,
+      "resolvedBundleID" : "com.openai.codex",
+      "sharingState" : 1,
+      "title" : "",
+      "windowNumber" : 52340
+    },
+    {
+      "alpha" : 1,
+      "bounds" : {
+        "height" : 37,
+        "width" : 34,
+        "x" : 693,
+        "y" : 0
+      },
+      "layer" : 25,
+      "order" : 57,
+      "ownerName" : "ChatGPT",
+      "ownerPID" : 7981,
+      "resolvedBundleID" : "com.openai.codex",
+      "sharingState" : 1,
+      "title" : "",
+      "windowNumber" : 52338
+    },
+    {
+      "alpha" : 1,
+      "bounds" : {
+        "height" : 24,
+        "width" : 34,
+        "x" : 1519,
+        "y" : -1440
+      },
+      "isOnScreen" : true,
+      "layer" : 25,
+      "order" : 58,
+      "ownerName" : "ChatGPT",
+      "ownerPID" : 7981,
+      "resolvedBundleID" : "com.openai.codex",
+      "sharingState" : 1,
+      "title" : "Item-0",
+      "windowNumber" : 52337
+    },
+    {
+      "alpha" : 1,
+      "bounds" : {
+        "height" : 1084,
+        "width" : 1824,
+        "x" : 127,
+        "y" : -1326
+      },
+      "isOnScreen" : true,
+      "layer" : 0,
+      "order" : 59,
+      "ownerName" : "ChatGPT",
+      "ownerPID" : 7981,
+      "resolvedBundleID" : "com.openai.codex",
+      "sharingState" : 1,
+      "title" : "ChatGPT",
+      "windowNumber" : 52336
+    },
+    {
+      "alpha" : 1,
+      "bounds" : {
+        "height" : 24,
+        "width" : 2560,
+        "x" : -220,
+        "y" : -1440
+      },
+      "layer" : 0,
+      "order" : 60,
+      "ownerName" : "ChatGPT",
+      "ownerPID" : 7981,
+      "resolvedBundleID" : "com.openai.codex",
+      "sharingState" : 1,
+      "title" : "",
+      "windowNumber" : 52334
+    },
+    {
+      "alpha" : 1,
+      "bounds" : {
+        "height" : 24,
+        "width" : 2560,
+        "x" : -220,
+        "y" : -1440
+      },
+      "layer" : 0,
+      "order" : 61,
+      "ownerName" : "ChatGPT",
+      "ownerPID" : 7981,
+      "resolvedBundleID" : "com.openai.codex",
+      "sharingState" : 1,
+      "title" : "",
+      "windowNumber" : 52333
+    },
+    {
+      "alpha" : 1,
+      "bounds" : {
+        "height" : 24,
+        "width" : 2560,
+        "x" : -220,
+        "y" : -1440
+      },
+      "layer" : 0,
+      "order" : 62,
+      "ownerName" : "ChatGPT",
+      "ownerPID" : 7981,
+      "resolvedBundleID" : "com.openai.codex",
+      "sharingState" : 1,
+      "title" : "",
+      "windowNumber" : 52332
+    },
+    {
+      "alpha" : 1,
+      "bounds" : {
+        "height" : 24,
+        "width" : 2560,
+        "x" : -220,
+        "y" : -1440
+      },
+      "layer" : 0,
+      "order" : 63,
+      "ownerName" : "ChatGPT",
+      "ownerPID" : 7981,
+      "resolvedBundleID" : "com.openai.codex",
+      "sharingState" : 1,
+      "title" : "",
+      "windowNumber" : 52331
+    },
+    {
+      "alpha" : 1,
+      "bounds" : {
+        "height" : 37,
+        "width" : 1512,
+        "x" : 0,
+        "y" : 0
+      },
+      "layer" : 0,
+      "order" : 64,
+      "ownerName" : "ChatGPT",
+      "ownerPID" : 7981,
+      "resolvedBundleID" : "com.openai.codex",
+      "sharingState" : 1,
+      "title" : "",
+      "windowNumber" : 52330
+    },
+    {
+      "alpha" : 1,
+      "bounds" : {
+        "height" : 37,
+        "width" : 1512,
+        "x" : 0,
+        "y" : 0
+      },
+      "layer" : 0,
+      "order" : 65,
+      "ownerName" : "ChatGPT",
+      "ownerPID" : 7981,
+      "resolvedBundleID" : "com.openai.codex",
+      "sharingState" : 1,
+      "title" : "",
+      "windowNumber" : 52329
+    },
+    {
+      "alpha" : 1,
+      "bounds" : {
+        "height" : 37,
+        "width" : 1512,
+        "x" : 0,
+        "y" : 0
+      },
+      "layer" : 0,
+      "order" : 66,
+      "ownerName" : "ChatGPT",
+      "ownerPID" : 7981,
+      "resolvedBundleID" : "com.openai.codex",
+      "sharingState" : 1,
+      "title" : "",
+      "windowNumber" : 52328
+    },
+    {
+      "alpha" : 1,
+      "bounds" : {
+        "height" : 37,
+        "width" : 1512,
+        "x" : 0,
+        "y" : 0
+      },
+      "layer" : 0,
+      "order" : 67,
+      "ownerName" : "ChatGPT",
+      "ownerPID" : 7981,
+      "resolvedBundleID" : "com.openai.codex",
+      "sharingState" : 1,
+      "title" : "",
+      "windowNumber" : 52327
+    },
+    {
+      "alpha" : 1,
+      "bounds" : {
+        "height" : 320,
+        "width" : 356,
+        "x" : 1698,
+        "y" : -602
+      },
+      "isOnScreen" : true,
+      "layer" : 3,
+      "order" : 183,
+      "ownerName" : "ChatGPT",
+      "ownerPID" : 7981,
+      "resolvedBundleID" : "com.openai.codex",
+      "sharingState" : 1,
+      "title" : "ChatGPT",
+      "windowNumber" : 52339
+    }
+  ]
+}

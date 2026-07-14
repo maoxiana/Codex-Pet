@@ -1,0 +1,63 @@
+{
+  "axRequirement" : {
+    "evidence" : {
+      "coordinateSpace" : "cgGlobalTopLeft",
+      "observedBounds" : {
+        "height" : 320,
+        "width" : 356,
+        "x" : 1698,
+        "y" : -602
+      },
+      "observedLayer" : 3,
+      "observedPID" : 7981,
+      "source" : "ax-tree.json",
+      "successfulNotifications" : [
+        "AXMoved",
+        "AXResized",
+        "AXUIElementDestroyed"
+      ]
+    },
+    "predicate" : {
+      "forbiddenDescendantSubroles" : [
+        "AXCloseButton",
+        "AXFullScreenButton",
+        "AXMinimizeButton"
+      ],
+      "requiredWindowNotifications" : [
+        "AXMoved",
+        "AXResized",
+        "AXUIElementDestroyed"
+      ],
+      "role" : "AXWindow",
+      "subrole" : "AXStandardWindow"
+    }
+  },
+  "evidence" : {
+    "excludedStates" : [
+      "small-codex-window"
+    ],
+    "hiddenState" : "pet-hidden",
+    "visibleCandidateBounds" : {
+      "height" : 320,
+      "width" : 356,
+      "x" : 1698,
+      "y" : -602
+    },
+    "visibleCandidateOrder" : 183,
+    "visibleState" : "pet-visible"
+  },
+  "height" : {
+    "maximum" : 1440,
+    "minimum" : 198.5
+  },
+  "layer" : 3,
+  "maximumOrder" : 183,
+  "requireOnScreen" : true,
+  "requiresAX" : true,
+  "resolvedBundleID" : "com.openai.codex",
+  "schemaVersion" : 1,
+  "width" : {
+    "maximum" : 2560,
+    "minimum" : 220
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "behaviorEvidence" : [
+    {
+      "available" : true,
+      "candidateCount" : 1,
+      "snapshot" : "notification-open.json"
+    },
+    {
+      "available" : true,
+      "candidateCount" : 1,
+      "snapshot" : "ordinary-space-switch.json"
+    },
+    {
+      "available" : true,
+      "candidateCount" : 1,
+      "snapshot" : "fullscreen-space.json"
+    }
+  ],
+  "deferralNote" : "User explicitly deferred additional scenario collection to continue implementation",
+  "discriminator" : {
+    "axRequirement" : {
+      "evidence" : {
+        "coordinateSpace" : "cgGlobalTopLeft",
+        "observedBounds" : {
+          "height" : 320,
+          "width" : 356,
+          "x" : 1698,
+          "y" : -602
+        },
+        "observedLayer" : 3,
+        "observedPID" : 7981,
+        "source" : "ax-tree.json",
+        "successfulNotifications" : [
+          "AXMoved",
+          "AXResized",
+          "AXUIElementDestroyed"
+        ]
+      },
+      "predicate" : {
+        "forbiddenDescendantSubroles" : [
+          "AXCloseButton",
+          "AXFullScreenButton",
+          "AXMinimizeButton"
+        ],
+        "requiredWindowNotifications" : [
+          "AXMoved",
+          "AXResized",
+          "AXUIElementDestroyed"
+        ],
+        "role" : "AXWindow",
+        "subrole" : "AXStandardWindow"
+      }
+    },
+    "evidence" : {
+      "excludedStates" : [
+        "small-codex-window"
+      ],
+      "hiddenState" : "pet-hidden",
+      "visibleCandidateBounds" : {
+        "height" : 320,
+        "width" : 356,
+        "x" : 1698,
+        "y" : -602
+      },
+      "visibleCandidateOrder" : 183,
+      "visibleState" : "pet-visible"
+    },
+    "height" : {
+      "maximum" : 1440,
+      "minimum" : 198.5
+    },
+    "layer" : 3,
+    "maximumOrder" : 183,
+    "requireOnScreen" : true,
+    "requiresAX" : true,
+    "resolvedBundleID" : "com.openai.codex",
+    "schemaVersion" : 1,
+    "width" : {
+      "maximum" : 2560,
+      "minimum" : 220
+    }
+  },
+  "failures" : [
+
+  ],
+  "identificationPassed" : true,
+  "idleCPUPercent" : null,
+  "maxFollowLatencyMs" : null,
+  "maxMovementDetectionMs" : null,
+  "missingMetrics" : [
+    "dragging.json",
+    "covered.json",
+    "pet-hidden.json",
+    "ordinary-space-switch.json",
+    "fullscreen-space.json"
+  ],
+  "missingSnapshots" : [
+
+  ],
+  "movingCPUPercent" : null,
+  "passed" : true,
+  "performanceDeferred" : true,
+  "performanceVerified" : false,
+  "petLayer" : 3,
+  "requiresAX" : true,
+  "schemaVersion" : 1,
+  "warnings" : [
+    "Missing performance metrics: covered.json",
+    "Missing performance metrics: dragging.json",
+    "Missing performance metrics: fullscreen-space.json",
+    "Missing performance metrics: ordinary-space-switch.json",
+    "Missing performance metrics: pet-hidden.json",
+    "No follow-latency measurement was recorded",
+    "No idle CPU measurement was recorded",
+    "No movement-detection measurement was recorded",
+    "No moving CPU measurement was recorded"
+  ]
+}

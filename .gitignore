@@ -1,0 +1,42 @@
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Swift Package Manager / Xcode build state
+.build/
+.build-*/
+.build-local/
+.swiftpm/
+.swiftpm-home/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+
+# Locally packaged companion app
+/companion/dist/
+
+# Generated pet frames, QA renders, and local backups
+# Root-anchored so companion/qa test fixtures remain versioned.
+/frames/
+/qa/
+/backup/
+
+# Temporary files and logs
+*.log
+*.pid
+*.swp
+*.tmp
+*~

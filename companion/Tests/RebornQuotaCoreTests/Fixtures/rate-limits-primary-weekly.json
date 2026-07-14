@@ -1,0 +1,15 @@
+{
+  "rateLimits": {
+    "limitId": "fallback-a",
+    "primary": {
+      "usedPercent": 40,
+      "windowDurationMins": 10080,
+      "resetsAt": 1736294400
+    },
+    "secondary": {
+      "usedPercent": 2,
+      "windowDurationMins": 1440,
+      "resetsAt": 1735776000
+    }
+  }
+}

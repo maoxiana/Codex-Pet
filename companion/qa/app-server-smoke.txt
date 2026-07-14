@@ -1,0 +1,1 @@
+{"durationMins":10080,"hasResetTime":true,"limitId":"codex","remainingPercent":71,"status":"available"}
