@@ -7,7 +7,7 @@ import numpy as np
 from PIL import Image, ImageChops
 
 
-SCRIPT = Path("/Users/maoxian/Work/reborn-transformation-gun-run/scripts/build_reborn_transformation.py")
+SCRIPT = Path(__file__).resolve().parents[1] / "scripts/build_reborn_transformation.py"
 spec = importlib.util.spec_from_file_location("build_reborn_transformation", SCRIPT)
 module = importlib.util.module_from_spec(spec)
 assert spec.loader is not None
@@ -77,6 +77,13 @@ def pistol_bbox(solid_frame: Image.Image, luminous_frame: Image.Image):
     return largest_component_bbox(weapon_change)
 
 
+LEGACY_ASSETS_AVAILABLE = all(
+    path.is_file()
+    for path in (module.HAND_BASE, module.TRANSITION_OVERLAYS, module.POSE_SOURCE)
+)
+
+
+@unittest.skipUnless(LEGACY_ASSETS_AVAILABLE, "legacy transformation source assets are not part of this repository")
 class DualStateSequenceTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
